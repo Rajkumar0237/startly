@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/pixeden-stroke-7-icon@1.2.3/pe-icon-7-stroke/dist/pe-icon-7-stroke.min.css">
+</head>
+
+<body>
+
+    <section id="home">
+
+
+        <!-- <div class="bg-black sm:flex sm:justify-between items-center space-y-3 sm:space-y-0  p-5">
+            <div class=" sm:w-36  w-36  sm:mx-0 sm:h-10">
+                <a href=""><img src="asset/envato.svg" alt="" srcset="" class="w-full h-10"></a>
+
+            </div>
+
+            <div>
+
+                <button
+                    class="border sm:text-sm  text-sm  sm:px-2 sm:py-1 bg-[#82b440] border-[#82b440] p-2  rounded-md text-white">Buy
+                    Now</button>
+            </div>
+
+        </div> -->
+
+
+
+        <!-- header -->
+
+        <div class="shadow">
+            <div
+                class="sm:flex sm:justify-between sm:w-11/12 sm:mx-auto  sm:whitespace-nowrap  sm:gap-x-5 gap-x-0  space-y-3 sm:space-y-0 sm:items-center  bg-white p-5">
+                <div class="flex justify-between">
+                    <h3 class="sm:text-2xl text-2xl font-bold  text-[#5c4eff]">Start.ly</h3>
+                    <div class="border bg-[#2756d9] bg- px-2 py-1 sm:hidden cursor-pointer" onclick="togglemenu()">
+                        <span class="material-icons align-middle">
+                            menu
+                        </span>
+                    </div>
+                </div>
+                <div class="sm:flex sm:gap-x-5 text-center space-y-3 sm:space-y-0 sm:items-center hidden" id="menu">
+                    <ul class="sm:flex sm:space-x-10 space-y-3 sm:space-y-0 text-gray-500 sm:text-lg ">
+                        <li class="hover:text-[#2756d9]"> <a href="#left">Features</a></li>
+                        <li class="hover:text-[#2756d9]"><a href="#plan">Pricing</a></li>
+                        <li class="hover:text-[#2756d9]"><a href="blog.html">Blog</a></li>
+                        <li class="hover:text-[#2756d9]"><a href="">Pages</a> <span
+                                class="material-icons align-middle cursor-pointer relative" onclick="toggleElements()">
+                                expand_more </span>
+                            <div class="bg-white shadow-2xl hidden sm:absolute mt-2" id="myElements">
+                                <ul class="sm:text-lg sm:tracking-tighter text-left text-black">
+                                    <li class="hover:bg-gray-200 px-6 py-1"><a href="">Landing Style Two</a>
+                                    </li>
+                                    <li class="hover:bg-gray-200 px-6 py-1 "><a href="blog.html">Blog Page</a></li>
+                                    <li class="hover:bg-gray-200 px-6 py-1 "><a href="contentplan.html">Blog Single</a>
+                                    </li>
+                                </ul>
+
+                            </div>
+
+                        </li>
+                        <li class="hover:text-[#2756d9]"> <a href="">Help</a></li>
+
+                    </ul>
+                    <div class="sm:flex sm:gap-x-5 space-y-3 sm:space-y-0">
+                        <div> <button
+                                class="border border-[#5c4eff]  hover:bg-[#5c4eff] hover:text-white px-3 py-1 rounded-2xl text-sm text-[#5c4eff]  "><a
+                                    href="#login">LOGIN</a></button>
+                        </div>
+
+                        <div> <button
+                                class="border border-[#5c4eff] px-2 py-1 rounded-2xl text-sm text-white bg-[#5c4eff]  ">
+                                <a href="#login">SIGN UP</a>
+                            </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="py-14">
+            <div class="sm:w-11/12 sm:mx-auto p-5">
+                <div class="text-center space-y-5">
+                    <h1 class="sm:text-6xl text-3xl text-[#3e396b] font-bold">Perfect Software Landing Page</h1>
+                    <p class="text-[#3e396b] sm:text-lg flex-wrap sm:w-7/12  sm:mx-auto">
+                        Something short and leading about your website, its contents and the creator etc. Make it short
+                        and sweet</p>
+                    <div class="sm:flex sm:justify-center space-y-3 sm:space-y-0  sm:space-x-5">
+                        <div><button
+                                class="uppercase border  sm:px-4 sm:py-2 px-3 py-1 rounded-3xl text-white bg-[#604cff] hover:-translate-y-2 transform transition duration-300"><a
+                                    href="#login" class="text-sm sm:text-lg">get
+                                    started
+                                    free</a></button></div>
+                        <div><button
+                                class="uppercase border sm:px-4  sm:py-2 px-3 py-1 rounded-3xl border-[#604cff] text-[#604cff] hover:-translate-y-2 transform transition duration-300 hover:text-white hover:bg-[#604cff]"><a
+                                    href="#login" class="text-sm sm:text-lg">see
+                                    futures</a></button></div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- best software ever -->
+        <div class="sm:py-20">
+            <div class=" sm:w-11/12 sm:mx-auto p-5">
+
+                <div class="flex justify-center p-5">
+                    <img src="asset/landing/macbook.png" alt="" srcset="" class="relative">
+                    <img src="asset/landing/screen1.jpg" alt="" srcset=""
+                        class=" absolute sm:h-[400px] sm:mt-28 w-52 sm:w-[800px] mt-6">
+                </div>
+
+            </div>
+        </div>
+
+        <!-- icons -->
+        <div class="sm:py-20 ">
+            <div class="space-y-3 p-5 ">
+                <h2 class=" text-gray-500 text-center">TRUSTED BY MOST POPULAR BRANDS</h2>
+
+                <div class="flex sm:flex-wrap sm:justify-center sm:space-x-2">
+                    <div class="sm:flex  sm:justify-center sm:space-x-2 ">
+                        <img src="asset/client_logo_1.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_2.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_3.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_4.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_5.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_6.png" alt="" srcset="" class="w-full">
+                    </div>
+
+                    <div class="sm:flex sm:justify-center  sm:space-x-2 ">
+                        <img src="asset/client_logo_7.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_8.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_9.png" alt="" srcset="" class="w-full">
+                        <img src="asset/client_logo_10.png" alt="" srcset="">
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+        <!-- card -->
+
+        <div class="bg-[#f8faff]  sm:py-16">
+            <div class="w-11/12 mx-auto space-y-8 p-5">
+                <div class="sm:flex  sm:space-x-10 space-y-8 sm:space-y-0 ">
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-paint-bucket text-violet-700 pe-3x w-12 h-12"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> Easy Customization</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">Cras sit amet nibh libero, in
+                                gravida nulla. Nulla vel metus ante. </p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-piggy text-violet-700 pe-3x"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> Save Money</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">in gravida nulla. Nulla vel metus
+                                scelerisque ante sollicitudin. </p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-cloud-upload text-violet-700 pe-3x"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> Cloud Upload</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">sit amet nibh libero, in gravida
+                                nulla. vel metus scelerisque
+                                sollicitudin.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="sm:flex  sm:space-x-10 space-y-8 sm:space-y-0">
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-science text-violet-700 pe-3x"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> Proven Technology</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">Cras sit amet nibh libero, in
+                                gravida nulla. Nulla vel metus ante .</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-rocket text-violet-700 pe-4x mr-2 sm:mr-0"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> Super Fast</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">in gravida nulla. Nulla vel metus
+                                scelerisque ante sollicitudin. </p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <div> <i class="pe-7s-like2 text-violet-700 pe-3x mr-2 sm:mr-0"></i></div>
+
+                        <div class="space-y-2">
+                            <h2 class="text-lg"> 100% Satisfaction</h2>
+                            <p class="flex-wrap tracking-tighter sm:tracking-normal">sit amet nibh libero, in gravida
+                                nulla. vel metus scelerisque
+                                sollicitudin.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- left diagram -->
+        <div class="sm:py-20" id="left">
+            <div class="w-11/12 mx-auto p-5">
+                <div class="sm:flex sm:items-center sm:gap-x-10 space-y-3 sm:space-y-0">
+                    <div class="w-full">
+                        <div class="bg-[#f8faff] p-4 flex gap-x-3">
+                            <div class="w-5 h-5 bg-[#fbbbf5] rounded-full"></div>
+                            <div class="w-5 h-5 bg-[#f8e397] rounded-full"></div>
+                            <div class="w-5 h-5 bg-[#79cfd5] rounded-full"></div>
+                        </div>
+                        <div class="w-full sm:h-[500px]">
+                            <img src="asset/Features.png" alt="" srcset="" class="">
+                        </div>
+                    </div>
+
+                    <div class="w-full  space-y-5">
+                        <div> <i class="pe-7s-like2 text-violet-700 pe-3x"></i></div>
+                        <h2 class="text-xl font-bold text-[#3e396b]">
+                            Perfect Dashboard</h2>
+                        <p class="text-[#3e396b] flex-wrap tracking-tighter sm:tracking-normal sm:w-7/12">Reprehenderit
+                            nemo quod
+                            tempore doloribus ratione distinctio
+                            quis
+                            quidem vitae sunt
+                            reiciendis,
+                            molestias omnis soluta?</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- diagram right -->
+        <div class=" sm:py-20">
+            <div class="w-11/12 mx-auto p-5">
+                <div class="sm:flex sm:items-center sm:gap-x-10 space-y-6 sm:space-y-0">
+
+                    <div class="w-full  space-y-5">
+                        <div> <i class="pe-7s-graph1 text-violet-700 pe-3x"></i></div>
+                        <h2 class="text-xl font-bold text-[#3e396b]">
+                            Charts, Diagrams & more</h2>
+                        <p class="text-[#3e396b] flex-wrap tracking-tighter sm:tracking-normal sm:w-7/12">Reprehenderit
+                            nemo quod
+                            tempore doloribus ratione
+                            distinctio
+                            quis
+                            quidem vitae sunt
+                            reiciendis,
+                            molestias omnis soluta?</p>
+                    </div>
+
+
+                    <div class="w-full">
+                        <img src="asset/Features2.jpg" alt="" srcset="" class="shadow-2xl border rounded-2xl">
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+        <div class="bg-[#f8faff]  py-16">
+            <div class="w-11/12 mx-auto space-y-8 p-5">
+                <div class="sm:flex  text-center sm:justify-between space-y-6 sm:space-y-0 sm:space-x-5">
+
+
+
+                    <div class="space-y-2">
+                        <div> <i class="pe-7s-medal text-violet-700 pe-3x w-12 h-12"></i></div>
+                        <h2 class="text-lg text-[#3e396b] font-bold">Award Winning Design</h2>
+                        <p class="text-[#3e396b] flex-wrap">Monotonectally envisioneer e-business niche markets
+                            vis-a-vis
+                            cost effective
+                            information. objectively promote worldwide. </p>
+                    </div>
+
+
+
+
+                    <div class="space-y-2">
+                        <div> <i class="pe-7s-diamond text-violet-700 pe-3x w-12 h-12"></i></div>
+                        <h2 class="text-lg text-[#3e396b] font-bold"> Carefully Crafted</h2>
+                        <p class="text-[#3e396b] flex-wrap">Authoritatively streamline strategic markets without
+                            user-centric
+                            potentialities.
+                            Credibly integrate progressive technologies </p>
+                    </div>
+
+
+
+
+                    <div class="space-y-2">
+                        <div> <i class="pe-7s-cloud-upload text-violet-700 pe-3x w-12 h-12"></i></div>
+                        <h2 class="text-lg text-[#3e396b] font-bold"> Cloud Sync</h2>
+                        <p class="text-[#3e396b] flex-wrap">Objectively underwhelm e-business leadership skills after
+                            cross-unit best practices.
+                            Continually innovate robust action items </p>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- card users -->
+        <div class="py-20">
+            <div class="w-11/12 mx-auto p-5 space-y-10">
+                <div class="text-center space-y-3 sm:space-y-0 ">
+                    <h1 class="text-lg text-[#3e396b] font-bold">What our users say</h1>
+                    <p class="text-[#8e8ba8] tracking-tight text-sm sm:text-lg">They love it. Read what our customers
+                        had to say!
+                    </p>
+                </div>
+                <div class="sm:flex sm:gap-x-5 space-y-6 sm:space-y-0">
+                    <div class="border rounded-2xl p-5 space-y-5 w-full hover:bg-[#eff3f7]">
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-4">
+                                <div><img src="asset/1.jpg" alt="" srcset="" class="rounded-full w-14 h-14"></div>
+                                <div>
+                                    <h2 class="text-black font-serif font-bold">Kathryn Minshew</h2>
+                                    <p><span class="text-gray-400">@kmin</span> <a href=""
+                                            class="text-[#318ade] hover:underline  font-bold">Follow</a></p>
+                                </div>
+                            </div>
+                            <div><img src="asset/logo-black.png" alt="" srcset="" class="w-5 h-5"></div>
+                        </div>
+                        <p class="flex-wrap">This is awesome! So thrilled to be on the <span
+                                class="text-[#318ade] hover:underline">@CIOonline</span>
+                            list of "Top 20 female entrepreneurs watch in 2018" <span
+                                class="text-[#318ade] hover:underline">https://cio.com/article/324399 </span> </p>
+                        <div class="flex justify-between items-center">
+                            <p class="hover:underline text-gray-600 ">12:11 AM . DEC 22,2017</p>
+                            <div>
+                                <img src="asset/icon.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-2">
+                                <img src="asset/heart.png" alt="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">18</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/message.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Reply</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/link.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Copy link</p>
+                            </div>
+
+                        </div>
+                        <button
+                            class="border p-2 text-[#318ade] font-bold w-full rounded-2xl hover:bg-[#dae3f8] hover:text-[#318ade]">Read
+                            1 reply</button>
+
+
+                    </div>
+                    <div class="border rounded-2xl p-5 space-y-5 w-full hover:bg-[#eff3f7]">
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-4">
+                                <div><img src="asset/2.jpeg" alt="" srcset="" class="rounded-full w-14 h-14"></div>
+                                <div>
+                                    <h2 class="text-black font-serif font-bold text-lg">Danny Halarewich</h2>
+                                    <p><span class="text-gray-400">@halarewich</span> <a href=""
+                                            class="text-[#318ade] hover:underline font-bold">Follow</a></p>
+                                </div>
+                            </div>
+                            <div><img src="asset/logo-black.png" alt="" srcset="" class="w-5 h-5"></div>
+                        </div>
+                        <p class="flex-wrap">I’m loving the @NikeRunning app. The guided runs are very well done and
+                            motivating. Gives me
+                            just
+                            enough structure to follow, and the Spotify integration is 👌 </p>
+                        <div class="flex justify-between items-center">
+                            <p class="hover:underline text-gray-600 ">10:58 AM . JAN 19,2017</p>
+                            <div>
+                                <img src="asset/icon.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-2">
+                                <img src="asset/heart.png" alt="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">1</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/message.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Reply</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/link.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Copy link</p>
+                            </div>
+
+                        </div>
+                        <button
+                            class="border p-2 text-[#318ade] font-bold w-full rounded-2xl hover:bg-[#dae3f8] hover:text-[#318ade]">Read
+                            more on X</button>
+
+
+                    </div>
+                    <div class="border rounded-2xl p-5 space-y-5 w-full hover:bg-[#eff3f7]">
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-4">
+                                <div><img src="asset/3.jpeg" alt="" srcset="" class="rounded-full w-14 h-14"></div>
+                                <div>
+                                    <h2 class="text-black font-serif font-bold text-lg">scott belsky</h2>
+                                    <p><span class="text-gray-400">@scottbelsky</span> <a href=""
+                                            class="text-[#318ade] hover:underline font-bold">Follow</a></p>
+                                </div>
+                            </div>
+                            <div><img src="asset/logo-black.png" alt="" srcset="" class="w-5 h-5"></div>
+                        </div>
+                        <p class="flex-wrap">When it’s not procrastination, distraction is a powerful form of natural
+                            selection. Pay
+                            attention
+                            to ideas you can’t stop thinking about.</p>
+                        <div class="flex justify-between items-center">
+                            <p class="hover:underline text-gray-600 ">10:17 PM . OCT 20,2017</p>
+                            <div>
+                                <img src="asset/icon.png" alt="" srcset="">
+                            </div>
+                        </div>
+                        <hr>
+
+                        <div class="flex justify-between items-center">
+                            <div class="flex gap-x-2">
+                                <img src="asset/heart.png" alt="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">125</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/message.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Reply</p>
+                            </div>
+                            <div class="flex gap-x-2">
+                                <img src="asset/link.png" alt="" srcset="" class="w-5 h-5">
+                                <p class="text-gray-600 font-bold">Copy link</p>
+                            </div>
+
+                        </div>
+                        <button
+                            class="border p-2 text-[#318ade] font-bold w-full rounded-2xl hover:bg-[#dae3f8] hover:text-[#318ade]">Read
+                            1 reply</button>
+
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- choose your plan -->
+
+        <div class="bg-[#f8faff] py-24" id="plan">
+            <div class="w-11/12 mx-auto space-y-8 p-5">
+
+                <div class="text-center space-y-5">
+                    <h1 class="text-3xl text-[#3e396b] font-bold">Choose your plan</h1>
+                    <p class="text-[#8e8ba8] tracking-tight text-sm sm:text-lg ">Simple pricing. no hidden charges.
+                        Choose a plan fit your needs</p>
+                </div>
+                <div class="sm:flex sm:space-x-10  space-y-6 sm:space-y-0">
+                    <div
+                        class="bg-white p-5 space-y-5 text-center w-full rounded-2xl hover:-translate-y-2 transform transition duration-300">
+                        <h4 class="text-gray-400">PERSONAL</h4>
+                        <h1 class="text-[#3e396b] font-bold text-[60px]">$9</h1>
+                        <ul class="space-y-5 text-[#3e396b]">
+                            <li>3 Projects</li>
+                            <li>Team Collaboration</li>
+                            <li>Analytics & Reports</li>
+                            <li>One user</li>
+                        </ul>
+
+
+                        <button
+                            class="border border-[#6f45ff] text-[#6f45ff] text-sm hover:text-white hover:bg-[#6f45ff] rounded-2xl px-6 py-2">CHOOSE
+                            THE PLAN</button>
+                    </div>
+                    <div
+                        class="bg-white p-5 space-y-5 text-center w-full rounded-2xl hover:-translate-y-2 transform transition duration-300">
+                        <h4 class="text-gray-400">STARTUP</h4>
+                        <h1 class="text-[#3e396b] font-bold text-[60px]">$29</h1>
+                        <ul class="space-y-5 text-[#3e396b]">
+                            <li>20 Projects</li>
+                            <li>Team Collaboration</li>
+                            <li>Analytics & Reports</li>
+                            <li>10 Active users</li>
+                        </ul>
+
+
+                        <button
+                            class="border border-[#6f45ff] text-[#6f45ff] text-sm hover:text-white hover:bg-[#6f45ff] rounded-2xl px-6 py-2">CHOOSE
+                            THE PLAN</button>
+                    </div>
+                    <div
+                        class="bg-white p-5 space-y-5 text-center w-full rounded-2xl hover:-translate-y-2 transform transition duration-300">
+                        <h4 class="text-gray-400">ENTERPRISE</h4>
+                        <h1 class="text-[#3e396b] font-bold text-[60px]">$149</h1>
+                        <ul class="space-y-5 text-[#3e396b]">
+                            <li>Unlimited Projects</li>
+                            <li>Team Collaboration</li>
+                            <li>Analytics & Reports</li>
+                            <li>Priority Support</li>
+                        </ul>
+
+
+                        <button
+                            class="border border-[#6f45ff] text-[#6f45ff] text-sm hover:text-white hover:bg-[#6f45ff] rounded-2xl px-6 py-2">CHOOSE
+                            THE PLAN</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- forms -->
+        <div class="bg-white  py-20 " id="login">
+            <div class="w-11/12 mx-auto space-y-8 p-5">
+                <div class="text-center space-y-5">
+                    <h1 class="text-3xl text-[#3e396b] font-bold">Start your free trial</h1>
+                    <p class="text-[#8e8ba8] tracking-tight text-sm sm:text-lg">Signup now. Its free and takes less than
+                        3 minutes</p>
+                </div>
+
+                <div class="text-center">
+                    <form action="">
+                        <div class="space-y-6">
+                            <div><input type="text" name="" id="" class="border sm:w-96 w-full p-3 rounded-2xl"
+                                    placeholder="Full Name"></div>
+                            <div> <input type="text" name="" id="" class="border sm:w-96  w-full p-3 rounded-2xl"
+                                    placeholder="Email Address">
+                            </div>
+                            <div><input type="text" name="" id="" class="border sm:w-96   w-full p-3 rounded-2xl"
+                                    placeholder="Password"></div>
+
+                            <div>
+                                <button
+                                    class="border bg-[#6d46ff] text-white sm:w-96 p-3  w-full rounded-2xl text-sm">GET
+                                    STARTED
+                                    FOR
+                                    FREE</button>
+                            </div>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- footer -->
+
+        <div class="bg-[#f8faff]">
+            <div class="w-11/12 mx-auto p-5 space-y-10">
+                <div class="sm:flex sm:justify-between space-y-6 sm:space-y-0">
+                    <div class="space-y-5">
+                        <h1 class="text-2xl">Start.ly</h1>
+                        <p class="text-[#aba6d0]">Start.ly is a SASS software landing page <br> template. </p>
+                        <div><a href="" class="text-[#7447f0]">Purchase now →</a></div>
+
+                    </div>
+
+                    <div>
+                        <ul class="space-y-2 text-[#636c72]">
+                            <li><a href="">Portfolio
+                                </a></li>
+                            <li><a href="">About us</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Contact</a></li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="space-y-2 text-[#636c72]">
+                            <li><a href="">Terms
+                                </a></li>
+                            <li><a href="">Privacy</a></li>
+
+
+                        </ul>
+                    </div>
+                    <div>
+                        <ul class="space-y-2 text-[#636c72]">
+                            <li><a href="">Facebook
+                                </a></li>
+                            <li><a href="">Twitter</a></li>
+                            <li><a href="">Linkedin</a></li>
+
+                        </ul>
+                    </div>
+                    <div>
+                        <a href="#home"
+                            class="border  text-sm px-3 py-2 border-[#7642ff] text-[#7642ff] hover:text-white hover:bg-[#7642ff] rounded-2xl">GO
+                            TO
+                            TOP</a>
+                    </div>
+                </div>
+
+                <div class="sm:text-center text-left text-[#aba6d0]">Copyright © 2024 All rights reserved. Start.ly
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <script>
+
+        function togglemenu() {
+            menu = document.getElementById('menu');
+            if (menu.classList.contains('hidden')) {
+                menu.classList.remove('hidden')
+            } else {
+                menu.classList.add('hidden')
+            }
+        }
+
+        function toggleElements() {
+            var x = document.getElementById("myElements");
+            if (x.style.display === "none" || x.style.display === "") {
+                x.style.display = "block";
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
